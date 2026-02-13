@@ -48,52 +48,6 @@ research contexts.
 
 ## 🏗️ System Architecture
 
-# Cycling Biometrics Engine
-
-Real-Time Cycling Biomechanics, Motion Analysis & Performance Engineering
-
----
-
-## Overview
-
-The Cycling Biometrics Engine is a high-performance research and development platform dedicated to real-time cycling biomechanics analysis.
-
-It integrates computer vision, GPU acceleration, embedded electronics, and custom firmware to deliver accurate, reproducible, and field-ready measurements for performance optimization and injury prevention.
-
-This system is actively used in professional retail environments and applied research contexts.
-
----
-
-## Core Technologies
-
-### Software & Algorithms
-- Computer Vision (OpenCV / EmguCV)
-- GPU Acceleration (CUDA, OpenGL, OpenCL)
-- Real-Time Kalman Filtering & Signal Smoothing
-- Dynamic ROI Tracking
-- Pose Estimation (YOLOv8 / ONNX Runtime)
-- Aerodynamic Modeling (CdA, Drag, Power Breakdown)
-- Multi-threaded Processing Pipelines
-
-### Hardware, Electronics & Firmware
-- Custom FSR Pressure Sensor Matrices
-- Embedded Acquisition Boards (Custom PCB Design)
-- Microcontroller Firmware (C / Embedded C++)
-- High-Speed Sensor Sampling Systems
-- USB / Serial / HID Communication Protocols
-- Real-Time Synchronization with Vision Pipelines
-
-### Visualization & Interfaces
-- OpenGL Core Profile Rendering
-- Real-Time Biomechanical Overlays
-- WPF / WinForms Hybrid Interfaces
-- Dynamic Plotting (OxyPlot / Custom GPU Charts)
-- Interactive Calibration & ROI Editors
-
----
-
-## System Architecture
-
 Cameras / Sensors  
         ↓  
 GPU Preprocessing (CUDA / OpenCL)  
