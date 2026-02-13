@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>ConsoleDemo</RootNamespace>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Adjust EmguCV package versions to match your environment -->
+    <PackageReference Include="Emgu.CV" Version="4.9.0.5480" />
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.9.0.5480" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\src\Kalman\PoseDTO.vb" Link="Kalman\PoseDTO.vb" />
+    <Compile Include="..\..\..\src\Kalman\KalmanCore.vb" Link="Kalman\KalmanCore.vb" />
+    <Compile Include="..\..\..\src\Kalman\KalmanSmoothers.vb" Link="Kalman\KalmanSmoothers.vb" />
+  </ItemGroup>
+
+</Project>
